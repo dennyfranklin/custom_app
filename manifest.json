@@ -1,0 +1,16 @@
+{
+  "platform-version": "2.3",
+  "product": {
+    "freshsales": {
+      "events": {
+        "onLeadCreate": {
+          "handler": "onLeadCreateHandler"
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": "18.20.8",
+    "fdk": "9.4.2"
+  }
+}
